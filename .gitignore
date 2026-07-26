@@ -5,9 +5,6 @@
 # SourceMod compiled plugins
 *.smx
 
-# Keep CubeNet custom plugins
-!sourcemod/plugins/ss_*.smx
-
 # Logs
 logs/
 *.log
@@ -55,3 +52,14 @@ wget-log
 
 # SourceMod database files
 *.sq3
+
+# SourceMod compiler binaries
+sourcemod/scripting/spcomp
+sourcemod/scripting/spcomp64
+tools/spcomp
+tools/spcomp64
+
+# SQLite runtime databases
+*.sq3
+*.sqlite
+*.db
