@@ -63,3 +63,6 @@ tools/spcomp64
 *.sq3
 *.sqlite
 *.db
+
+# Build tools
+tools/compiler/

@@ -2,7 +2,7 @@
 
 set -e
 
-SPCOMP="${SPCOMP:-./tools/spcomp64}"
+SPCOMP="./tools/compiler/spcomp64"
 
 SOURCE="./sourcemod/scripting"
 OUTPUT="./sourcemod/plugins"
