@@ -1,0 +1,10 @@
+# GitHub language detection
+*.sp linguist-language=SourcePawn
+*.cfg linguist-language=INI
+
+# SourceMod compiled plugins are binary
+*.smx binary
+
+# Documentation
+*.md text
+*.txt text

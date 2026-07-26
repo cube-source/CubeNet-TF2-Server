@@ -1,0 +1,57 @@
+# ==========================================
+# CubeNet TF2 Server Git Ignore
+# ==========================================
+
+# SourceMod compiled plugins
+*.smx
+
+# Keep CubeNet custom plugins
+!sourcemod/plugins/ss_*.smx
+
+# Logs
+logs/
+*.log
+sourcemod/logs/
+
+# TF2 downloaded content
+maps/
+materials/
+models/
+sound/
+workshop/
+download/
+downloads/
+
+# Steam files
+steamapps/
+Steam/
+.steam/
+
+# Runtime data
+data/
+cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SourceMod stock development files
+sourcemod/scripting/include/
+sourcemod/scripting/testsuite/
+sourcemod/scripting/spcomp
+sourcemod/scripting/spcomp64
+
+# SourceMod translations
+sourcemod/translations/*
+!sourcemod/translations/ss_*.txt
+
+# GeoIP database
+sourcemod/configs/geoip/
+
+# Temporary files
+*.bak
+*.tmp
+wget-log
+
+# SourceMod database files
+*.sq3
